@@ -1,7 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
+    "composite": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "rootDir": "../shared/",
+    "moduleResolution": "Node",
+    "types": [],
+    "declaration": true,
+    "outDir": "../dist/shared",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,

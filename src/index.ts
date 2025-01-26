@@ -1,1 +1,2 @@
-console.log('Happy developing ✨')
+// const me:unknown = "Ivan"
+// const name:string = me;
