@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
+    "strict": true,
     "types": ["node", "mocha"],
     "rootDirs": ["test", "src"]
   },
