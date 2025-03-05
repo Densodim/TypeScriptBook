@@ -33,7 +33,7 @@ type Remove<O, T> = {
     [K in keyof O as O[K] extends T | undefined ? never : K]: O[K]
 }
 
-type User = {
+export type User = {
     name: string
     age: number
     profession?: string
