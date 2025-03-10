@@ -9,6 +9,8 @@
   "dependencies": {
     "express": "^4.21.2",
     "lodash": "^4.17.21",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "type-fest": "^4.37.0"
   },
   "devDependencies": {
@@ -16,6 +18,8 @@
     "@types/lodash": "^4.17.16",
     "@types/mocha": "^10.0.10",
     "@types/node": "^22.10.10",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
     "mocha": "^11.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
