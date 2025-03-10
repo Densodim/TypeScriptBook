@@ -33,6 +33,6 @@ type SetRequered<T, K extends keyof T = keyof T> = Remap<
 >
 
 //________________
-type OnlyRequired<T, K extends keyof T = keyof T> = Remap<
+export type OnlyRequired<T, K extends keyof T = keyof T> = Remap<
     Required<Pick<T, K>> & Partial<Omit<T, K>>
 >
