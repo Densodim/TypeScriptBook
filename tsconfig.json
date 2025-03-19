@@ -9,6 +9,7 @@
     "noImplicitOverride": true,
     "strictPropertyInitialization": true,
     "experimentalDecorators": false,
+    "moduleResolution": "node"
   },
   "include": ["src", "@types"],
 }
